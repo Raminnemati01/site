@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Oxana - SEO / Marketing HTML Template</title>
+    <title>رامین آکادمی|آموزش و نوآوری </title>
 
     <!-- Fonts -->
     <link rel="stylesheet" href="/client/styles/fontiran.css">
@@ -28,123 +28,13 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div class="mobile-nav-wrapper">
-      <div class="mobile-menu-inner">
-        <ul class="mobile-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li class="has-sub"><a href="#">Pages <i class="sub-icon fa fa-angle-down"></i></a>
-            <ul class="sub-menu">
-              <li><a href="about-us.html">About Us</a></li>
-              <li><a href="our-team.html">Our Team</a></li>
-              <li><a href="pricing-plans.html">Pricing Plans</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
-              <li><a href="error-page.html">404 Error Page</a></li>
-              <li><a href="page-headings.html">Page Headings</a></li>
-              <li><a href="page-headings.html"></a></li>
-            </ul>
-          </li>
-          <li class="has-sub"><a href="#">Portfolio <i class="sub-icon fa fa-angle-down"></i></a>
-            <ul class="sub-menu">
-              <li><a href="portfolio-v1.html">Portfolio Version 1</a></li>
-              <li><a href="portfolio-v2.html">Portfolio Version 2</a></li>
-              <li><a href="portfolio-v3.html">Portfolio Version 3</a></li>
-              <li><a href="single-project.html">Single Project</a></li>
-            </ul>
-          </li>
-          <li class="has-sub"><a href="#">Blog Entries <i class="sub-icon fa fa-angle-down"></i></a>
-            <ul class="sub-menu">
-              <li><a href="blog-v1.html">Blog Version 1</a></li>
-              <li><a href="blog-v2.html">Blog Version 2</a></li>
-              <li><a href="blog-v3.html">Blog Version 3</a></li>
-              <li><a href="single-post.html">Single Post</a></li>
-            </ul>
-          </li>
-          <li class="has-sub"><a href="#">Shop <i class="sub-icon fa fa-angle-down"></i></a>
-            <ul class="sub-menu">
-              <li><a href="our-shop.html">Our Products</a></li>
-              <li><a href="single-product.html">Single Product</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="mobile-menu-overlay"></div>
+
+@include('client.layouts.mobile-menu')
+
 
     <!-- Header -->
-    <header class="site-header fixed-header">
-      <div class="container expanded">
-        <div class="header-wrap">
-          <div class="fixed-header-logo">
-            <a href="index.html"><img src="/client/images/logo-white.png" alt=""></a>
-          </div>
-          <div class="is-fixed-header-logo">
-            <a href="index.html"><img src="/client/images/logo.png" alt=""></a>
-          </div>
-          <div class="header-nav">
-              <ul class="main-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li class="menu-item-has-children"><a href="#">Pages</a>
-                  <ul class="sub-menu">
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="our-team.html">Our Team</a></li>
-                    <li><a href="pricing-plans.html">Pricing Plans</a></li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="error-page.html">404 Error Page</a></li>
-                    <li><a href="page-headings.html">Page Headings</a></li>
-                    <li><a href="page-headings.html">Page Headings</a></li>
-                  </ul>
-                </li>
-                <li class="menu-item-has-children"><a href="#">Portfolio</a>
-                  <ul class="sub-menu">
-                    <li><a href="portfolio-v1.html">Portfolio Version 1</a></li>
-                    <li><a href="portfolio-v2.html">Portfolio Version 2</a></li>
-                    <li><a href="portfolio-v3.html">Portfolio Version 3</a></li>
-                    <li><a href="single-project.html">Single Project</a></li>
-                  </ul>
-                </li>
-                <li class="menu-item-has-children"><a href="#">Blog Entries</a>
-                  <ul class="sub-menu">
-                    <li><a href="blog-v1.html">Blog Version 1</a></li>
-                    <li><a href="blog-v2.html">Blog Version 2</a></li>
-                    <li><a href="blog-v3.html">Blog Version 3</a></li>
-                    <li><a href="single-post.html">Single Post</a></li>
-                  </ul>
-                </li>
-                <li class="menu-item-has-children"><a href="#">Shop</a>
-                  <ul class="sub-menu">
-                    <li><a href="our-shop.html">Our Products</a></li>
-                    <li><a href="single-product.html">Single Product</a></li>
-                  </ul>
-                </li>
-                <li><a href="contact.html">Contact Us</a></li>
-              </ul>
-          </div>
-          <div class="header-widgets">
-            <ul class="right-menu">
-              <li class="menu-item menu-search">
-                <a href="#search" id="menu-search-btn">
-                  <i class="fa fa-search"></i>
-                </a>
-              </li>
-              <li class="menu-item free-quote">
-                <div class="main-pink-button">
-                  <a href="#">Get Free Quote</a>
-                </div>
-              </li>
-              <li class="menu-item menu-mobile-nav">
-                <a href="#" class="menu-bar" id="menu-show-mobile-nav">
-                  <span class="hamburger"></span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- Header -->
+
+@include('client.layouts.menu')
 
     <!-- Search -->
     <div id="search">
@@ -163,8 +53,9 @@
         <!--Content before waves-->
         <div class="inner-header">
           <div class="inner-content">
-            <h4>سلام بر رضوان خانم این اولین پروژه ی شرکت و سایت خود شرکت می باشد</h4>
-            <h1>گروه رامین آکادمی<br>نو آوری و شکوفایی و رشد</h1>
+            <h4>با رامین آکادمی به هرآنچه که هدف گذاری کرده اید برسید</h4>
+            <h1>آکادمی رامین<br>نو آوری شکوفایی و رشد</h1>
+
             <form action="#">
               <input type="text" placeholder="http://yoursite.com" required="">
               <button>Analyze!</button>
